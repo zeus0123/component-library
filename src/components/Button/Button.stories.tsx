@@ -1,6 +1,7 @@
 import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
 import Button from "./Button";
+import { IButton } from "./Button.types";
 
 const meta: Meta<typeof Button> = {
   component: Button,
@@ -11,7 +12,7 @@ export default meta;
 
 type Story = StoryObj<typeof Button>;
 
-export const Primary: Story = (args) => (
+export const Primary: Story = (args: IButton) => (
   <Button data-testId="InputField-id" {...args}>Hello World</Button>
 );
 Primary.args = {

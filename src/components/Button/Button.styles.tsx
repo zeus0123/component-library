@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { IButton } from './IButton';
+import { IButton } from './Button.types';
 
 export const StyledButton = styled.button<IButton>`
     color: ${({ color }) => color || '#fff'};

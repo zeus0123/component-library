@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode, MouseEventHandler } from "react";
 
 export interface IButton {
     color?: string;
@@ -8,7 +8,7 @@ export interface IButton {
     border?: string;
     padding?: string;
     margin?: string;
-    onClick?: React.MouseEvent<HTMLElement>;
+    onClick?: MouseEventHandler<HTMLButtonElement>;
     width?: string;
     borderRadius?: string;
     disabled?: boolean;

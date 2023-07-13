@@ -1,5 +1,5 @@
 import React from 'react';
-import { IButton } from './IButton';
+import { IButton } from './Button.types';
 import { StyledButton } from './Button.styles';
 
 const Button: React.FC<IButton> = ({
