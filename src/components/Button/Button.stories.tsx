@@ -16,5 +16,8 @@ export const Primary: Story = (args) => (
 );
 Primary.args = {
   color: '#9E0059',
-  bgColor: '#FFBD00'
+  bgColor: '#FFBD00',
+  fontSize: '14px',
+  borderRadius: '4px',
+  padding: '10px 15px',
 };
